@@ -124,10 +124,9 @@ a:hover {
   }
 
   .headerName {
-    margin-left: -13rem;
+    margin-left: -12rem;
     display: flex;
-    justify-content: center;
-    /* margin-top: 10vh; */
+    margin-top: 25vh;
   }
   ul {
     padding: 0 40px 0 60px;
