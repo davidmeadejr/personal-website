@@ -83,7 +83,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: Consolas, monaco, monospace;
     font-size: 14px;
     line-height: 20px;
