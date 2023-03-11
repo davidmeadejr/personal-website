@@ -46,3 +46,37 @@ a {
 a:hover {
   font-size: 1.1em;
 }
+
+@media (max-width: 844px) {
+  /* .container {
+    height: 0;
+  } */
+
+  .aboutMe {
+    width: 100%;
+    margin: 0;
+    /* padding: -1rem; */
+    padding: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  .headerName {
+    margin-left: -14rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ul {
+    padding: 0 40px 0 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  .headerName {
+    margin-left: -13rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+  }
+}
