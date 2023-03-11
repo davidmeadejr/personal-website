@@ -3,7 +3,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="container">
-      <p className="headerName">David Meade Jr.</p>
+      <div className="headerName">David Meade Jr.</div>
       <div className="aboutMe">
         <ul>
           <li>Full-stack software engineer focused on customer-centric products.</li>
