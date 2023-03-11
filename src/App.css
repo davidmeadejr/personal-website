@@ -47,7 +47,27 @@ a:hover {
   font-size: 1.1em;
 }
 
-@media (max-width: 415px) {
+@media (min-width: 400px) {
+  .aboutMe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  .headerName {
+    margin-left: -14.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    padding: 0 40px 0 60px;
+  }
+}
+
+@media (max-width: 390px) {
   /* .container {
     height: 0;
   } */
@@ -62,21 +82,23 @@ a:hover {
   }
 
   .headerName {
-    margin-left: -14rem;
+    margin-left: -13rem;
     display: flex;
     justify-content: center;
   }
 
-  .ul {
+  ul {
     padding: 0 40px 0 60px;
   }
 }
 
 @media (max-width: 375px) {
   .headerName {
-    margin-left: -13rem;
+    margin-left: -12rem;
     display: flex;
-    justify-content: center;
     margin-top: 25vh;
+  }
+  ul {
+    padding: 0 40px 0 60px;
   }
 }
