@@ -12,7 +12,6 @@ export default function App() {
             <a href="https://hackerthon.ai/">2022 Google Project Data Hack winner.</a>
           </li>
           <li>Focused on creating value by building software.</li>
-          <li>test</li>
           <li className="examples">
             A few examples:
             <ul>
