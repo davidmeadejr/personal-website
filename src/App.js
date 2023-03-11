@@ -5,7 +5,7 @@ export default function App() {
     <div className="container">
       <div className="aboutMe">
         <ul>
-          <p>David Meade Jr.</p>
+          <li>David Meade Jr.</li>
           <li>Full-stack software engineer focused on customer-centric products.</li>
           <li>Experienced in Fintech, startups and web3.</li>
           <li>
