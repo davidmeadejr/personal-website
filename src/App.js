@@ -16,15 +16,12 @@ export default function App() {
             A few examples:
             <ul>
               <li>
-                <a href="https://www.collabz.online">Collabz</a>: A platform that connects small content creators with
-                brands and agencies.
+                <a href="https://www.collabz.online">Collabz</a>: Connects small content creators with brands and
+                agencies.
               </li>
             </ul>
           </li>
-          <li>
-            Previously, I was software engineer at Santander's Innovation Hub helping scale their in-house learning and
-            mentoring platform for software engineers from the ground up.
-          </li>
+          <li>Previously, as a software engineer I helped scale Santander's in-house learning & mentoring platform.</li>
           <li>I also was a software engineer at two VC-backed web3 startups focusing on front-end development.</li>
           <li>
             <a href="mailto:davidmeadejnr@gmail.com">Email</a>
