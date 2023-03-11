@@ -47,7 +47,7 @@ a:hover {
   font-size: 1.1em;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 415px) {
   .aboutMe {
     width: 100%;
     margin: 0;
