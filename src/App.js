@@ -11,7 +11,7 @@ export default function App() {
           <li>
             <a href="https://hackerthon.ai/">2022 Google Project Data Hack winner.</a>
           </li>
-          <li>Now focused on creating value by building software.</li>
+          <li>Focused on creating value by building software.</li>
           <li className="examples">
             A few examples:
             <ul>
@@ -22,8 +22,8 @@ export default function App() {
             </ul>
           </li>
           <li>
-            Previously, I was software engineer at Santander helping scale their in-house learning and mentoring
-            platform for software engineers from the ground up.
+            Previously, I was software engineer at Santander's Innovation Hub helping scale their in-house learning and
+            mentoring platform for software engineers from the ground up.
           </li>
           <li>I also was a software engineer at two VC-backed web3 startups focusing on front-end development.</li>
           <li>
