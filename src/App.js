@@ -28,7 +28,7 @@ export default function App() {
           <li>
             I share personal insights on indie-hacking and startups on my:
             <ul>
-              <li>
+              <li className="twitter">
                 <a href="https://twitter.com/davidmeadejr">Twitter</a>
               </li>
               <li>
