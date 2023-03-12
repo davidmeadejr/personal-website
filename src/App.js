@@ -31,7 +31,7 @@ export default function App() {
             <a href="https://davidmeadejr.substack.com/">Newsletter</a>
           </li>
           <li>
-            Indie hacking Saas and documenting my journey here →&nbsp;
+            Indie hacking SaaS and documenting my journey here →&nbsp;
             <a href="https://twitter.com/davidmeadejr">Twitter</a>
           </li>
 
