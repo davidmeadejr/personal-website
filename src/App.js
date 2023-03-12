@@ -7,13 +7,17 @@ export default function App() {
       <div className="aboutMe">
         <ul>
           <li>Full-stack software engineer focused on customer-centric products.</li>
-          <li>Experienced in Fintech, startups and web3.</li>
+          {/* <li>Experienced in Fintech, startups and web3.</li> */}
           <li>
-            <a href="https://hackerthon.ai/">2022 Google Project Data Hack winner.</a>
+            Winner of the&nbsp;<a href="https://hackerthon.ai/">Google 2022 Project Data Hack.</a>
           </li>
-          <li>Focused on creating value by building software.</li>
+          <li>
+            A recent graduate of a top European coding bootcamp and a renowned software engineering program funded by
+            Santander.
+          </li>
+          <li>Worked with two VC-backed web3 startups.</li>
           <li className="examples">
-            A few examples:
+            Projects:
             <ul>
               <li>
                 <a href="https://www.collabz.online">Collabz</a>: Connecting small content creators with brands and
@@ -21,24 +25,25 @@ export default function App() {
               </li>
             </ul>
           </li>
+          <li>
+            I share personal insights on indie-hacking and startups on my:
+            <ul>
+              <li>
+                <a href="https://twitter.com/davidmeadejr">Twitter</a>
+              </li>
+              <li>
+                <a href="https://davidmeadejr.substack.com/">Newsletter</a>
+              </li>
+            </ul>
+          </li>
           {/* <li>
-            Previously, as a software engineer I helped build & scale Santander's in-house learning & mentoring
-            platform.
-          </li>
-          <li>I also was a software engineer at two VC-backed web3 startups focusing on front-end development.</li> */}
-          <li>
-            I share insights on creating value by building software through my own projects here →&nbsp;
-            <a href="https://davidmeadejr.substack.com/">Newsletter</a>
-          </li>
-          <li>
-            Indie hacking SaaS and documenting my journey here →&nbsp;
-            <a href="https://twitter.com/davidmeadejr">Twitter</a>
-          </li>
-
+            <a href="https://www.linkedin.com/in/davidmeadejr/overlay/1635518455085/single-media-viewer/?profileId=ACoAACOnweMB2NEIXA_bJryyk9CNXmEts0TIftM">
+              Resume
+            </a>
+          </li> */}
           <li>
             <a href="mailto:davidmeadejnr@gmail.com">Email</a>
           </li>
-
           <li>
             <a href="https://www.linkedin.com/in/davidmeadejr/">LinkedIn</a>
           </li>
