@@ -17,12 +17,24 @@ export default function App() {
             <ul>
               <li>
                 <a href="https://www.collabz.online">Collabz</a>: Connects small content creators with brands and
-                agencies.
+                agencies. (coming soon)
               </li>
             </ul>
           </li>
-          <li>Previously, as a software engineer I helped scale Santander's in-house learning & mentoring platform.</li>
-          <li>I also was a software engineer at two VC-backed web3 startups focusing on front-end development.</li>
+          {/* <li>
+            Previously, as a software engineer I helped build & scale Santander's in-house learning & mentoring
+            platform.
+          </li>
+          <li>I also was a software engineer at two VC-backed web3 startups focusing on front-end development.</li> */}
+          <li>
+            I share insights on creating value by building software through my own projects here →&nbsp;
+            <a href="https://davidmeadejr.substack.com/">Newsletter</a>
+          </li>
+          <li>
+            My tweets on creating value by building software through my own projects →&nbsp;
+            <a href="https://twitter.com/davidmeadejr">Twitter</a>
+          </li>
+
           <li>
             <a href="mailto:davidmeadejnr@gmail.com">Email</a>
           </li>
@@ -32,9 +44,6 @@ export default function App() {
           </li>
           <li>
             <a href="https://github.com/davidmeadejr">GitHub</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/davidmeadejr">Twitter</a>
           </li>
         </ul>
       </div>
