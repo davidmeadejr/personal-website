@@ -29,7 +29,7 @@ export default function App() {
             I share personal insights on indie-hacking and startups on my:
             <ul>
               <li className="twitter">
-                <a href="https://twitter.com/davidmeadejr">Twitter</a> (currently rebranding)
+                <a href="https://twitter.com/davidmeadejr">Twitter</a> (rebranding)
               </li>
               <li>
                 <a href="https://davidmeadejr.substack.com/">Newsletter</a> (coming soon)
