@@ -16,7 +16,7 @@ export default function App() {
             A few examples:
             <ul>
               <li>
-                <a href="https://www.collabz.online">Collabz</a>: Connects small content creators with brands and
+                <a href="https://www.collabz.online">Collabz</a>: Connecting small content creators with brands and
                 agencies. (coming soon)
               </li>
             </ul>
