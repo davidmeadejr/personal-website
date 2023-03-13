@@ -21,7 +21,7 @@ export default function App() {
             <ul>
               <li>
                 <a href="https://www.collabz.online">Collabz</a>: Connecting small content creators with brands and
-                agencies. (coming soon)
+                agencies. (building)
               </li>
             </ul>
           </li>
@@ -29,7 +29,7 @@ export default function App() {
             I share personal insights on indie-hacking and startups on my:
             <ul>
               <li className="twitter">
-                <a href="https://twitter.com/davidmeadejr">Twitter</a> (rebranding)
+                <a href="https://twitter.com/davidmeadejr">Twitter</a>
               </li>
               <li>
                 <a href="https://davidmeadejr.substack.com/">Newsletter</a> (coming soon)
