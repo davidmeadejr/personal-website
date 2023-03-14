@@ -15,7 +15,7 @@ export default function App() {
             A recent graduate of a top European coding bootcamp and a renowned software engineering program funded by
             Santander.
           </li>
-          <li>Worked with two VC-backed web3 startups.</li>
+          <li>Worked with two startups backed by VCs Meta and Seedcamp.</li>
           <li className="examples">
             Projects:
             <ul>
