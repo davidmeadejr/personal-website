@@ -27,3 +27,7 @@ img.divvy {
 .text {
   max-width: 480px;
 }
+
+a.divvyContainer:hover {
+  font-size: 14px;
+}

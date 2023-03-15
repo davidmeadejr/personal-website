@@ -28,8 +28,7 @@ export default function App() {
               </a>
             </li>
             <li>
-              A recent graduate of a top European coding bootcamp and a renowned software engineering program funded by
-              Santander.
+              A recent graduate of a top European coding bootcamp and a renowned SWE degree program funded by Santander.
             </li>
             <li>Worked with two startups backed by VCs Meta and Seedcamp.</li>
             {/* <li className="examples">

@@ -3,7 +3,7 @@ import "./DivvyProject.css";
 
 function DivvyProject(props) {
   return (
-    <div className="divvyContainer">
+    <a className="divvyContainer" href="https://github.com/davidmeadejr/divvy-app" target="_blank" rel="noreferrer">
       <img className="divvy" src={props.image} alt="Divvy" />
       <div className="text">
         <h3>Divvy</h3>
@@ -15,7 +15,7 @@ function DivvyProject(props) {
           )
         </p>
       </div>
-    </div>
+    </a>
   );
 }
 export default DivvyProject;
