@@ -1,0 +1,7 @@
+.circle {
+  position: absolute;
+  border: solid 2px #333;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
