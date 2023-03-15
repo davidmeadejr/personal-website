@@ -5,7 +5,8 @@ function Navbar() {
   return (
     <nav>
       <ul>
-        <li>
+        <li className="navbarContainer typewriter">
+          <p className="title">David Meade Jr.👋🏾</p>
           <a href="#projects">Projects</a>
         </li>
       </ul>

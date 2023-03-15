@@ -14,7 +14,6 @@ export default function App() {
       <div className="wrapper">
         <Circle />
         <div className="header">
-          <p className="title">David Meade Jr.👋🏾</p>
           <Navbar />
         </div>
         <div className="content">
