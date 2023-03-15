@@ -13,8 +13,8 @@ function Circle() {
       yp = 0;
 
     const handleMouseMove = (e) => {
-      mouseX = e.pageX - 15;
-      mouseY = e.pageY - 15;
+      mouseX = e.pageX - 20;
+      mouseY = e.pageY - 20;
     };
 
     document.addEventListener("mousemove", handleMouseMove);
