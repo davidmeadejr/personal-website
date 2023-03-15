@@ -24,7 +24,7 @@ nav li:first-child {
 .navbarContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 .title {
