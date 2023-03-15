@@ -4,7 +4,6 @@
   padding: 1rem;
   border-radius: 1.5rem;
   background-color: #fff;
-  margin-right: 2.5rem;
   max-width: 514px;
   margin-bottom: -1rem;
   display: flex;
@@ -12,6 +11,7 @@
   align-items: center;
   flex-direction: column;
   transition: all 0.3s ease-in-out;
+  margin-right: 0;
 }
 
 .divvyContainer:hover {

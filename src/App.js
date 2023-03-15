@@ -85,8 +85,8 @@ export default function App() {
         </div>
         <div className="projectSection" id="projects">
           <NudgewellProject image={nudgewell} />
-          <DivvyProject image={divvy} />
           <RoboFounders image={robo} />
+          <DivvyProject image={divvy} />
         </div>
       </div>
     </>
