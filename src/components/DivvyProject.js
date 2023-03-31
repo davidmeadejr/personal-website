@@ -9,7 +9,11 @@ function DivvyProject(props) {
         <h3>Divvy</h3>
         <p>
           A mobile app that digitises receipts and enables easy bill splitting when eating out in a group.(
-          <a href="https://github.com/davidmeadejr/divvy-app" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/davidmeadejr/divvy-app/commits?author=davidmeadejr"
+            target="_blank"
+            rel="noreferrer"
+          >
             GIT
           </a>
           )

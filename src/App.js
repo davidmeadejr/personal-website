@@ -1,11 +1,9 @@
 import "./App.css";
 import nudgewell from "./nudgewell.png";
 import divvy from "./divvy.png";
-import robo from "./roboFounders.png";
 import Navbar from "./components/Navbar";
 import NudgewellProject from "./components/NudgewellProject";
 import DivvyProject from "./components/DivvyProject";
-import RoboFounders from "./components/RoboFounders";
 import Circle from "./components/Circle";
 
 export default function App() {
@@ -18,8 +16,7 @@ export default function App() {
         </div>
         <div className="content">
           <ul>
-            <li>Full-stack software engineer focused on customer-centric products.</li>
-            {/* <li>Experienced in Fintech, startups and web3.</li> */}
+            <li>Software engineer focused on customer-centric products.</li>
             <li>
               Winner of the&nbsp;
               <a href="https://hackerthon.ai/" target="_blank" rel="noreferrer">
@@ -57,11 +54,11 @@ export default function App() {
                 </li>
               </ul>
             </li>
-            {/* <li>
-            <a href="https://www.linkedin.com/in/davidmeadejr/overlay/1635518455085/single-media-viewer/?profileId=ACoAACOnweMB2NEIXA_bJryyk9CNXmEts0TIftM">
-              Resume
-            </a>
-          </li> */}
+            <li>
+              <a href="https://github.com/davidmeadejr/external-curriculum-vitae/blob/master/external-curriculum-vitae-updated.pdf">
+                Resume
+              </a>
+            </li>
             <li>
               <a href="mailto:davidmeadejnr@gmail.com" target="_blank" rel="noreferrer">
                 Email
@@ -84,7 +81,6 @@ export default function App() {
         </div>
         <div className="projectSection" id="projects">
           <NudgewellProject image={nudgewell} />
-          <RoboFounders image={robo} />
           <DivvyProject image={divvy} />
         </div>
       </div>
