@@ -92,6 +92,8 @@ a:hover {
 
   .content {
     max-width: 250px;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
   .wrapper {
