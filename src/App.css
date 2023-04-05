@@ -90,8 +90,12 @@ a:hover {
     margin: 2rem 13rem 2rem 0;
   }
 
+  .content {
+    max-width: 500px;
+  }
+
   .wrapper {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   ul {
