@@ -10,13 +10,13 @@ export default function App() {
   return (
     <>
       <div className="wrapper">
-        <Circle />
+        {/* <Circle /> */}
         <div className="header">
           <Navbar />
         </div>
         <div className="content">
           <ul>
-            <li>Leveraging blockchain & applied ML for customer-centric FinTech products.</li>
+            <li>Leveraging applied ML & blockchain for customer-centric FinTech products.</li>
             <li>
               Winner of the&nbsp;
               <a href="https://hackerthon.ai/" target="_blank" rel="noreferrer">
@@ -55,13 +55,13 @@ export default function App() {
               </ul>
             </li> */}
             <li>
-              <a href="https://github.com/davidmeadejr" target="_blank" rel="noreferrer">
-                GitHub
+              <a href="https://github.com/davidmeadejr/external-curriculum-vitae/blob/master/external-curriculum-vitae-updated.pdf">
+                Resume
               </a>
             </li>
             <li>
-              <a href="https://github.com/davidmeadejr/external-curriculum-vitae/blob/master/external-curriculum-vitae-updated.pdf">
-                Resume
+              <a href="https://github.com/davidmeadejr" target="_blank" rel="noreferrer">
+                GitHub
               </a>
             </li>
             <li>

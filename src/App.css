@@ -28,6 +28,21 @@ body {
   border-radius: 1.5rem;
   background-color: #fff;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  animation: pulse 2s infinite;
+}
+
+/* Defines the animation */
+@keyframes pulse {
+  0% {
+    border-color: #b1b1b1;
+  }
+  50% {
+    border-color: #000;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    border-color: #b1b1b1;
+  }
 }
 
 .projectSection {
@@ -91,6 +106,10 @@ a:hover {
   .headerName {
     /* margin: 3rem 0; */
     margin: 3rem 12rem 3rem 0;
+  }
+
+  .wrapper {
+    font-size: 11px;
   }
 
   ul {
