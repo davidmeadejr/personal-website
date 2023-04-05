@@ -23,8 +23,11 @@ export default function App() {
                 Google 2022 Project Data Hack.
               </a>
             </li>
+            <li>Graduate of top European coding bootcamp and SWE degree funded by Santander.</li>
             <li>
-              Recent graduate of a top European coding bootcamp and a renowned SWE degree program funded by Santander.
+              <a href="https://app.poap.xyz/token/6264372" target="_blank" rel="noreferrer">
+                Chainlink Certified Smart Contract Developer.
+              </a>
             </li>
             <li>Worked with two startups backed by VCs Meta and Seedcamp.</li>
             {/* <li className="examples">
