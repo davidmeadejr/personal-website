@@ -28,13 +28,38 @@ nav li:first-child {
 }
 
 .title {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  color: #333333;
-  font-size: 14px;
+  margin-bottom: 0;
+  margin-right: 31rem; */
   margin-bottom: 0;
   margin-right: 31rem;
+  color: #333333;
+  font-size: 14px;
+  overflow: hidden;
+  border-right: 0.1em solid orange;
+  white-space: nowrap;
+  animation: typing 1s steps(20, end) forwards, blinking 1.2s infinite;
+  font-size: 14px;
+  width: 0;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: black;
+  }
 }
 
 @media (max-width: 390px) {
