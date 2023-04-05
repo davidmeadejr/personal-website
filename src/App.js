@@ -16,7 +16,7 @@ export default function App() {
         </div>
         <div className="content">
           <ul>
-            <li>Software engineer focused on customer-centric products.</li>
+            <li>Leveraging blockchain & applied ML for customer-centric FinTech products.</li>
             <li>
               Winner of the&nbsp;
               <a href="https://hackerthon.ai/" target="_blank" rel="noreferrer">
@@ -24,7 +24,7 @@ export default function App() {
               </a>
             </li>
             <li>
-              A recent graduate of a top European coding bootcamp and a renowned SWE degree program funded by Santander.
+              Recent graduate of a top European coding bootcamp and a renowned SWE degree program funded by Santander.
             </li>
             <li>Worked with two startups backed by VCs Meta and Seedcamp.</li>
             {/* <li className="examples">
@@ -38,7 +38,7 @@ export default function App() {
                 </li>
               </ul>
             </li> */}
-            <li>
+            {/* <li>
               I share personal insights on indie-hacking and startups on my:
               <ul>
                 <li className="twitter">
@@ -53,15 +53,15 @@ export default function App() {
                   (coming soon)
                 </li>
               </ul>
+            </li> */}
+            <li>
+              <a href="https://github.com/davidmeadejr" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
             </li>
             <li>
               <a href="https://github.com/davidmeadejr/external-curriculum-vitae/blob/master/external-curriculum-vitae-updated.pdf">
                 Resume
-              </a>
-            </li>
-            <li>
-              <a href="mailto:davidmeadejnr@gmail.com" target="_blank" rel="noreferrer">
-                Email
               </a>
             </li>
             <li>
@@ -70,19 +70,19 @@ export default function App() {
               </a>
             </li>
             <li>
-              <a href="https://github.com/davidmeadejr" target="_blank" rel="noreferrer">
-                GitHub
+              <a href="mailto:davidmeadejnr@gmail.com" target="_blank" rel="noreferrer">
+                Email
               </a>
             </li>
           </ul>
         </div>
-        <div className="caretContainer">
+        {/* <div className="caretContainer">
           <img className="caret" src="assets/icons/caretDown.png" alt="Caret Down"></img>
-        </div>
-        <div className="projectSection" id="projects">
+        </div> */}
+        {/* <div className="projectSection" id="projects">
           <NudgewellProject image={nudgewell} />
           <DivvyProject image={divvy} />
-        </div>
+        </div> */}
       </div>
     </>
   );
