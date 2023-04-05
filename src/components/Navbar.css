@@ -36,3 +36,9 @@ nav li:first-child {
   margin-bottom: 0;
   margin-right: 25rem;
 }
+
+@media (max-width: 390px) {
+  .title {
+    margin-right: 13rem;
+  }
+}
