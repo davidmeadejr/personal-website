@@ -90,6 +90,10 @@ a:hover {
     margin: 2rem 13rem 2rem 0;
   }
 
+  .wrapper {
+    font-size: 11px;
+  }
+
   ul {
     padding: 0 3rem;
   }
