@@ -110,6 +110,10 @@ a:hover {
   .twitter {
     margin-bottom: 0.5rem;
   }
+
+  .title {
+    margin-right: 13rem;
+  }
 }
 
 @media (max-width: 375px) {
