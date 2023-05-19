@@ -16,7 +16,8 @@ export default function App() {
         </div>
         <div className="content">
           <ul>
-            <li>Leveraging applied ML & blockchain for customer-centric FinTech products.</li>
+            <li>Leveraging code for customer-centric products.</li>
+            <li>Focused on FinTech, Startups, Decentralisation and Reinforcement Learning.</li>
             <li>
               Winner of the&nbsp;
               <a href="https://hackerthon.ai/" target="_blank" rel="noreferrer">
