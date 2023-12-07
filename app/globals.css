@@ -2,26 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    background: rgb(239, 239, 239);
+    background-image: url(../public/assets/images/noise.png);
+    @apply text-sm;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .wrapper {
+    @apply flex flex-col items-center justify-center min-h-screen leading-5 font-normal;
+  }
+
+  .header {
+    @apply mb-4;
+  }
+
+  .content {
+    @apply flex flex-col items-start justify-center max-w-full mx-4 mb-8 p-4 text-[#333333] border border-[#b1b1b1] rounded-2xl bg-white shadow-md md:max-w-lg lg:max-w-3xl;
+    /* Adjust max-width for different screen sizes and increase margin for larger screens */
+  }
+
+  h1, h2 {
+    @apply font-bold my-2;
+  }
+
+  p, li {
+    @apply my-1;
+  }
+
+  a {
+    @apply no-underline border-b border-[#b1b1b1] transition duration-300 ease-in-out;
+  }
+
+  ul {
+    @apply list-disc list-inside ml-4;
+  }
 }
