@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import localFont from "next/font/local"
 
-const berkley = localFont({src:"../public/assets/BerkeleyMonoTrial-Regular.ttf"})
+const berkley = localFont({ src: "../public/assets/BerkeleyMonoTrial-Regular.ttf" })
 
 const Home = () => {
   return (
@@ -10,36 +10,52 @@ const Home = () => {
       <div className="header">
       </div>
       <div className="content">
-        <h2>Who</h2>
+        <h2>Who:</h2>
         <ul>
           <li>David Meade Jr.</li>
         </ul>
-        <h2>What</h2>
+        <h2>Work:</h2>
         <ul>
           <li>Software Engineer among other things</li>
           <li>Interested in optimising ML models for customer-centric products</li>
-          <li>Now: DevOps and SWE consultancy to public and private sector clients</li>
           <li>
-            Before: Software Engineer @ two web3 startups backed by Seedcamp and Meta
+            Present: DevOps and SWE{' '}
+            <Link href="https://www.capgemini.com/gb-en/about-us/" target="_blank" rel="noreferrer">
+              consultancy
+            </Link>{' '}
+            to public and private sector clients
+          </li>
+          <li>
+            Past: Software Engineer @ two web3 startups backed by{' '}
+            <Link href="https://flooz.xyz/about" target="_blank" rel="noreferrer">
+              Seedcamp
+            </Link>{' '}
+            and{' '}
+            <Link href="https://www.astraverse.xyz/" target="_blank" rel="noreferrer">
+              Meta
+            </Link>
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
-                SWE apprentice @ Santander
+                SWE apprentice @ the{' '}
+                <Link href="https://www.santander.co.uk/about-santander" target="_blank" rel="noreferrer">
+                  largest bank in Spain
+                </Link>
               </li>
             </ul>
           </li>
         </ul>
-        <h2>Where</h2>
+        <h2>Where:</h2>
         <ul>
-        <li>
-          🌍
-          <ul className="list-inside list-disc ml-4">
-            <li className="list-[circle]">Born in London, UK</li>
-            <li className="list-[circle]">Based in Milton Keynes, UK</li>
-          </ul>
-        </li>
+          <li>
+            🌍
+            <ul className="list-inside list-disc ml-4">
+              <li className="list-[circle]">Born in London, UK</li>
+              <li className="list-[circle]">Based in Milton Keynes, UK</li>
+            </ul>
+          </li>
         </ul>
         <ul>
-        <li>
+          <li>
             🌐
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
@@ -63,14 +79,14 @@ const Home = () => {
                 </Link>
               </li>
             </ul>
-          </li> 
-        <ul>
+          </li>
+          <ul>
+          </ul>
         </ul>
-        </ul>
-        <h2>Why</h2>
+        <h2>Why:</h2>
         <ul><li>Purpose over popularity, Direction over speed</li></ul>
       </div>
-      <p>Updated December 7th, 2023</p>
+      <p>Updated December 8th, 2023</p>
     </div>
   );
 };

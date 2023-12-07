@@ -19,7 +19,6 @@
 
   .content {
     @apply flex flex-col items-start justify-center max-w-full mx-4 mb-8 p-4 text-[#333333] border border-[#b1b1b1] rounded-2xl bg-white shadow-md md:max-w-lg lg:max-w-3xl;
-    /* Adjust max-width for different screen sizes and increase margin for larger screens */
   }
 
   h1, h2 {
@@ -36,5 +35,9 @@
 
   ul {
     @apply list-disc list-inside ml-4;
+  }
+
+  ::selection {
+    background-color: #fffe00;
   }
 }
