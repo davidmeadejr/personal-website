@@ -3,8 +3,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Personal Website',
-  description: 'Personal Website',
+  title: 'David Meade Jr.',
+  description: 'David Meade Jr.',
 }
 
 export default function RootLayout({
