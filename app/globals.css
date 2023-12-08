@@ -10,7 +10,7 @@
   }
 
   .wrapper {
-    @apply flex flex-col items-center justify-center min-h-screen leading-5 font-normal;
+    @apply flex flex-col items-center min-h-screen leading-5 font-normal;
   }
 
   .header {
@@ -19,6 +19,14 @@
 
   .content {
     @apply flex flex-col items-start justify-center max-w-full mx-4 mb-8 p-4 text-[#333333] border border-[#b1b1b1] rounded-2xl bg-white shadow-md md:max-w-lg lg:max-w-3xl;
+
+    /* Default margin-top (for all screens) */
+    margin-top: 0;
+
+    /* Responsive margin-top for larger screens (e.g., not for mobile screens) */
+    @screen lg {
+      margin-top: 5rem; /* Set margin-top to 5rem for screens equal to or larger than 'lg' breakpoint */
+    }
   }
 
   h1, h2 {
@@ -26,7 +34,7 @@
   }
 
   p, li {
-    @apply my-1;
+    @apply my-1 mt-0 mb-0;
   }
 
   a {

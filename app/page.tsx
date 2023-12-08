@@ -1,14 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
-import localFont from "next/font/local"
+import localFont from 'next/font/local';
 
-const berkley = localFont({ src: "../public/assets/BerkeleyMonoTrial-Regular.ttf" })
+const berkley = localFont({ src: '../public/assets/BerkeleyMonoTrial-Regular.ttf' });
 
 const Home = () => {
   return (
     <div className={`wrapper ${berkley.className} text-[0.875rem]`}>
-      <div className="header">
-      </div>
+      <div className="header"></div>
       <div className="content">
         <h2>Who:</h2>
         <ul>
@@ -17,7 +16,7 @@ const Home = () => {
         <h2>Work:</h2>
         <ul>
           <li>Software Engineer among other things</li>
-          <li>Interested in optimising ML models for customer-centric products</li>
+          <li>Interested in optimizing ML models for customer-centric products</li>
           <li>
             Present: DevOps and SWE{' '}
             <Link href="https://www.capgemini.com/gb-en/about-us/" target="_blank" rel="noreferrer">
@@ -80,16 +79,18 @@ const Home = () => {
               </li>
             </ul>
           </li>
-          <ul>
-          </ul>
+          <ul></ul>
         </ul>
         <h2>Why:</h2>
-        <ul><li>Purpose over popularity, Direction over speed</li></ul>
+        <ul>
+          <li>Purpose over popularity, Direction over speed</li>
+        </ul>
       </div>
-      <p>Updated December 9th, 2023</p>
+      <p className="mt-5 ml-4 text-left">Updated December 9th, 2023</p>
     </div>
   );
 };
 
 export default Home;
+
 
