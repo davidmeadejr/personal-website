@@ -6,7 +6,7 @@ const berkley = localFont({ src: "../public/assets/BerkeleyMonoTrial-Regular.ttf
 
 const Home = () => {
   return (
-    <div className={`wrapper ${berkley.className}`}>
+    <div className={`wrapper ${berkley.className} text-[0.875rem]`}>
       <div className="header">
       </div>
       <div className="content">
@@ -86,7 +86,7 @@ const Home = () => {
         <h2>Why:</h2>
         <ul><li>Purpose over popularity, Direction over speed</li></ul>
       </div>
-      <p>Updated December 8th, 2023</p>
+      <p>Updated December 9th, 2023</p>
     </div>
   );
 };
