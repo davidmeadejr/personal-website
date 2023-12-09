@@ -9,11 +9,11 @@ const Home = () => {
     <div className={`wrapper ${berkley.className} text-[0.875rem]`}>
       <div className="header"></div>
       <div className="content">
-        <h2>Who:</h2>
+        <h2>Who?</h2>
         <ul>
           <li>David Meade Jr.</li>
         </ul>
-        <h2>Work:</h2>
+        <h2>Work?</h2>
         <ul>
           <li>Software Engineer among other things</li>
           <li>Interested in optimizing ML models for customer-centric products</li>
@@ -43,7 +43,7 @@ const Home = () => {
             </ul>
           </li>
         </ul>
-        <h2>Where:</h2>
+        <h2>Where?</h2>
         <ul>
           <li>
             🌍
@@ -81,12 +81,12 @@ const Home = () => {
           </li>
           <ul></ul>
         </ul>
-        <h2>Why:</h2>
+        <h2>Why?</h2>
         <ul>
           <li>Purpose over popularity, Direction over speed</li>
         </ul>
       </div>
-      <p className="mt-5 ml-4 text-left">Updated December 10th, 2023</p>
+      <p className="mt-3">Updated December 10th, 2023</p>
     </div>
   );
 };
