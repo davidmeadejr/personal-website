@@ -21,7 +21,8 @@
     @apply flex flex-col items-start justify-center max-w-full mx-4 mb-8 p-4 text-[#333333] border border-[#b1b1b1] rounded-2xl bg-white shadow-md md:max-w-lg lg:max-w-3xl;
 
     /* Default margin-top (for all screens) */
-    margin-top: 0;
+    margin-top: 0rem;
+    margin-bottom:0rem;
 
     /* Responsive margin-top for larger screens (e.g., not for mobile screens) */
     @screen lg {
