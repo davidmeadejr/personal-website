@@ -27,7 +27,7 @@ const Home = () => {
           <li>
             Past: Software Engineer @ two web3 startups backed by{' '}
             <Link href="https://flooz.xyz/about" target="_blank" rel="noreferrer">
-              Seedcamp
+              Angel Investors
             </Link>{' '}
             and{' '}
             <Link href="https://www.astraverse.xyz/" target="_blank" rel="noreferrer">
