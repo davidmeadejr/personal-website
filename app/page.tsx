@@ -16,7 +16,7 @@ const Home = () => {
         <h2>Work?</h2>
         <ul>
           <li>Software Engineer among other things</li>
-          <li>Interested in optimising ML models for customer-centric products</li>
+          <li>Refining ML models for customer-centric products</li>
           <li>
             Present: DevOps and SWE{' '}
             <Link href="https://www.capgemini.com/gb-en/about-us/" target="_blank" rel="noreferrer">
