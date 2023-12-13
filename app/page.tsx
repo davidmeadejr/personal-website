@@ -16,7 +16,7 @@ const Home = () => {
         <h2>Work?</h2>
         <ul>
           <li>Software Engineer among other things</li>
-          <li>Refining ML models for customer-centric products</li>
+          <li>Interested in refining ML models for customer-centric products</li>
           <li>
             Present: DevOps and SWE{' '}
             <Link href="https://www.capgemini.com/gb-en/about-us/" target="_blank" rel="noreferrer">
@@ -86,7 +86,7 @@ const Home = () => {
           <li>Purpose over popularity, Direction over speed</li>
         </ul>
       </div>
-      <p className="mt-3">Updated December 12th, 2023</p>
+      <p className="mt-3">Updated December 13th, 2023</p>
     </div>
   );
 };
