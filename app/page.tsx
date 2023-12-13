@@ -15,7 +15,7 @@ const Home = () => {
         </ul>
         <h2>Work?</h2>
         <ul>
-          <li>Software Engineer among other things</li>
+          <li>Programmer and ML Engineer</li>
           <li>Interested in refining ML models for customer-centric products</li>
           <li>
             Present: DevOps and SWE{' '}
