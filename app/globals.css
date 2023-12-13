@@ -49,4 +49,21 @@
   ::selection {
     background-color: #fffe00;
   }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .flashing-cursor::after {
+    content: '';
+    animation: blink 1s step-start 0s infinite;
+    display: inline-block;
+    width: 10px;
+    height: 1rem;
+    background: #8b8b8b;
+    margin-left: 5px;
+    border-radius: 1px;
+    margin-bottom: -3px;
+  }
 }

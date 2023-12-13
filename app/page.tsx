@@ -10,8 +10,8 @@ const Home = () => {
       <div className="header"></div>
       <div className="content">
         <h2>Who?</h2>
-        <ul>
-          <li>David Meade Jr.</li>
+        <ul className="flashing-cursor">
+          &gt; David Meade Jr.
         </ul>
         <h2>Work?</h2>
         <ul>
