@@ -18,20 +18,13 @@ const Home = () => {
           <li>Programmer and ML Engineer</li>
           <li>Interested in refining ML models for customer-centric products</li>
           <li>
-            Present: DevOps and SWE{' '}
-            <Link href="https://www.capgemini.com/gb-en/about-us/" target="_blank" rel="noreferrer">
-              consultancy
-            </Link>{' '}
-            to public and private sector clients
+            Present: DevOps and SWE consultancy to UK public and private sector clients
           </li>
           <li>
             Past: Software Engineer @ two web3 startups
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
-                SWE apprentice @ the{' '}
-                <Link href="https://www.santander.co.uk/about-santander" target="_blank" rel="noreferrer">
-                  largest bank in Spain
-                </Link>
+                SWE apprentice @ the largest bank in Spain
               </li>
             </ul>
           </li>
@@ -68,6 +61,11 @@ const Home = () => {
               <li className="list-[circle]">
                 <Link href="mailto:david@davidmeadejr.com" target="_blank" rel="noreferrer">
                   Email
+                </Link>
+              </li>
+              <li className="list-[circle]">
+                <Link href="https://github.com/davidmeadejr/external-curriculum-vitae/blob/master/external-curriculum-vitae-updated.pdf" target="_blank" rel="noreferrer">
+                  Resume
                 </Link>
               </li>
             </ul>
