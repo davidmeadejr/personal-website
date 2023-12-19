@@ -16,7 +16,7 @@ const Home = () => {
         <h2>Work?</h2>
         <ul>
           <li>Programmer and ML Engineer</li>
-          <li>Interested in modern computing and productising ML.</li>
+          <li>Interested in modern computing and productising ML</li>
           <li>
             Present: DevOps and SWE consultancy to UK public and private sector clients
           </li>
