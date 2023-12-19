@@ -25,14 +25,7 @@ const Home = () => {
             to public and private sector clients
           </li>
           <li>
-            Past: Software Engineer @ two web3 startups backed by{' '}
-            <Link href="https://flooz.xyz/about" target="_blank" rel="noreferrer">
-              Angel Investors
-            </Link>{' '}
-            and{' '}
-            <Link href="https://www.astraverse.xyz/" target="_blank" rel="noreferrer">
-              Meta
-            </Link>
+            Past: Software Engineer @ two web3 startups
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
                 SWE apprentice @ the{' '}
@@ -86,7 +79,7 @@ const Home = () => {
           <li>Purpose over popularity, Direction over speed</li>
         </ul>
       </div>
-      <p className="mt-3">Updated December 13th, 2023</p>
+      <p className="mt-3">Updated December 19th, 2023</p>
     </div>
   );
 };
