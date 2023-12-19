@@ -66,7 +66,7 @@ const Home = () => {
                 </Link>
               </li>
               <li className="list-[circle]">
-                <Link href="mailto:davidmeadejnr@gmail.com" target="_blank" rel="noreferrer">
+                <Link href="mailto:david@davidmeadejr.com" target="_blank" rel="noreferrer">
                   Email
                 </Link>
               </li>
