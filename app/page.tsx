@@ -64,7 +64,7 @@ const Home = () => {
                 </Link>
               </li>
               <li className="list-[circle]">
-                <Link href="https://github.com/davidmeadejr/external-curriculum-vitae/blob/master/external-curriculum-vitae-updated.pdf" target="_blank" rel="noreferrer">
+                <Link href="https://davidmeadejr.com/resume.pdf" target="_blank" rel="noreferrer">
                   Resume
                 </Link>
               </li>
@@ -77,7 +77,7 @@ const Home = () => {
           <li>Purpose over popularity, Direction over speed</li>
         </ul>
       </div>
-      <p className="mt-3">Updated December 19th, 2023</p>
+      <p className="mt-3">Updated December 20th, 2023</p>
     </div>
   );
 };
