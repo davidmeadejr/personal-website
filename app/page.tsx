@@ -24,7 +24,7 @@ const Home = () => {
             Past: Software Engineer @ two web3 startups
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
-                SWE apprentice @ the largest bank in Spain
+                Software Engineer @ the largest bank in Spain
               </li>
             </ul>
           </li>
