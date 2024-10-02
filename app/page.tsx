@@ -17,7 +17,7 @@ const Home = () => {
         <ul>
           <li>Writing and deploying code </li>
           <li>
-            Interested in: modern computing from first principles and productising ML</li>
+            Interested in:</li>
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
               Productising
