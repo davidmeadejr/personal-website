@@ -20,7 +20,7 @@ const Home = () => {
             Interested in:</li>
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
-              Productising
+              Productising ML
               </li>
               <li className="list-[circle]">
               Modern computing from first principles
