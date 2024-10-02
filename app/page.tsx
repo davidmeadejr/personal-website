@@ -16,7 +16,16 @@ const Home = () => {
         <h2>Work?</h2>
         <ul>
           <li>Writing and deploying code </li>
-          <li>Interested in modern computing from first principles and productising ML</li>
+          <li>
+            Interested in: modern computing from first principles and productising ML</li>
+            <ul className="list-inside list-disc ml-4">
+              <li className="list-[circle]">
+              Productising
+              </li>
+              <li className="list-[circle]">
+              Modern computing from first principles
+              </li>
+            </ul>
           <li>
             Present: DevOps Engineer @ Capgemini
           </li>
