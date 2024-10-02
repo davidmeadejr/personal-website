@@ -16,6 +16,16 @@ const Home = () => {
         <h2>Work?</h2>
         <ul>
           <li>Writing and deploying code </li>
+            Present: DevOps Engineer @ Capgemini
+          </li>
+          <li>
+            Past: Software Engineer @ two web3 startups
+            <ul className="list-inside list-disc ml-4">
+              <li className="list-[circle]">
+                Software Engineer @ the largest bank in Spain
+              </li>
+            </ul>
+          </li>
           <li>
             Interested in:</li>
             <ul className="list-inside list-disc ml-4">
@@ -27,16 +37,6 @@ const Home = () => {
               </li>
             </ul>
           <li>
-            Present: DevOps Engineer @ Capgemini
-          </li>
-          <li>
-            Past: Software Engineer @ two web3 startups
-            <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">
-                Software Engineer @ the largest bank in Spain
-              </li>
-            </ul>
-          </li>
         </ul>
         <h2>Where?</h2>
         <ul>
