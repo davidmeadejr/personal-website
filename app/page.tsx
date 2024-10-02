@@ -15,10 +15,10 @@ const Home = () => {
         </ul>
         <h2>Work?</h2>
         <ul>
-          <li>Programmer and ML Infrastructure Engineer</li>
-          <li>Interested in modern computing and productising ML</li>
+          <li>Writing and deploying code </li>
+          <li>Interested in modern computing from first principles and productising ML</li>
           <li>
-            Present: Infrastructure Engineer @ Capgemini
+            Present: DevOps Engineer @ Capgemini
           </li>
           <li>
             Past: Software Engineer @ two web3 startups
@@ -77,7 +77,7 @@ const Home = () => {
           <li>Purpose over popularity, Direction over speed</li>
         </ul>
       </div>
-      <p className="mt-3">Updated December 24th, 2023</p>
+      <p className="mt-3">Updated October 2nd, 2024</p>
     </div>
   );
 };
