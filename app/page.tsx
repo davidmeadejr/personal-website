@@ -10,34 +10,30 @@ const Home = () => {
       <div className="header"></div>
       <div className="content">
         <h2>Who?</h2>
-        <ul className="flashing-cursor">
+        <div className="flashing-cursor">
           &gt; David Meade Jr.
-        </ul>
+        </div>
         <h2>Work?</h2>
         <ul>
-          <li>Writing and deploying code </li>
-            Present: DevOps Engineer @ Capgemini
+          <li>Writing and deploying code</li>
+          <li>Present:
+            <ul className="list-inside list-disc ml-4">
+              <li className="list-[circle]">DevOps Engineer @ Capgemini</li> 
+            </ul> 
           </li>
           <li>
-            Past: Software Engineer @ two web3 startups
+            Past:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">
-                Software Engineer @ the largest bank in Spain
-              </li>
+              <li className="list-[circle]">SWE @ two VC backed web3 startups</li>
+              <li className="list-[circle]">SWE @ the largest bank in Spain</li>
             </ul>
           </li>
-          <li>
-            Interested in:
-          </li>
+          <li>Interested in:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">
-              Productising ML
-              </li>
-              <li className="list-[circle]">
-              Modern computing from first principles
-              </li>
-            </ul>
-          <li>
+              <li className="list-[circle]">Modern computing from first principles</li>
+              <li className="list-[circle]">Productising ML</li>
+            </ul> 
+          </li>
         </ul>
         <h2>Where?</h2>
         <ul>
@@ -80,7 +76,6 @@ const Home = () => {
               </li>
             </ul>
           </li>
-          <ul></ul>
         </ul>
         <h2>Why?</h2>
         <ul>
@@ -93,5 +88,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
