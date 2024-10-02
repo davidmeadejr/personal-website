@@ -27,7 +27,8 @@ const Home = () => {
             </ul>
           </li>
           <li>
-            Interested in:</li>
+            Interested in:
+          </li>
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
               Productising ML
