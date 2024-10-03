@@ -82,7 +82,7 @@ const Home = () => {
           <li>Purpose over popularity, Direction over speed</li>
         </ul>
       </div>
-      <p className="mt-3">Updated October 2nd, 2024</p>
+      <p className="mt-3">Updated October 3rd, 2024</p>
     </div>
   );
 };
