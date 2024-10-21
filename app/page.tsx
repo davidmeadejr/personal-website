@@ -18,7 +18,7 @@ const Home = () => {
           <li>Writing and deploying code</li>
           <li>Present:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">SWE (DevOps) @ Capgemini</li> 
+              <li className="list-[circle]">SWE (Platform) @ Capgemini</li> 
             </ul> 
           </li>
           <li>
@@ -82,7 +82,7 @@ const Home = () => {
           <li>Purpose over popularity, Direction over speed</li>
         </ul>
       </div>
-      <p className="mt-3">Updated October 3rd, 2024</p>
+      <p className="mt-3">Updated October 21st, 2024</p>
     </div>
   );
 };
