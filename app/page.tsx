@@ -79,10 +79,11 @@ const Home = () => {
         </ul>
         <h2>Why?</h2>
         <ul>
-          <li>Purpose over popularity, Direction over speed</li>
+          <li>Purpose over popularity, Direction over speed.</li>
+          <li>To win.</li>
         </ul>
       </div>
-      <p className="mt-3">Updated October 21st, 2024</p>
+      <p className="mt-3">Updated October 24th, 2024</p>
     </div>
   );
 };
