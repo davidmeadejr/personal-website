@@ -40,7 +40,7 @@ const Home = () => {
           <li>
             🌍
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">London, United Kingdom</li>
+              <li className="list-[circle]">London, England</li>
             </ul>
           </li>
         </ul>
