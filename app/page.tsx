@@ -36,7 +36,7 @@ const Home = () => {
           </li>
         </ul>
         <h2>Where?</h2>
-        <ul>3
+        <ul>
           <li>
             🌍
             <ul className="list-inside list-disc ml-4">
@@ -55,7 +55,7 @@ const Home = () => {
               </li>
               <li className="list-[circle]">
                 <Link href="https://github.com/davidmeadejr" target="_blank" rel="noreferrer">
-                  GitHub (Projects)
+                  GitHub
                 </Link>
               </li>
               <li className="list-[circle]">
