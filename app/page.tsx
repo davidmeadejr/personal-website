@@ -40,8 +40,7 @@ const Home = () => {
           <li>
             🌍
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">Born in London, UK</li>
-              <li className="list-[circle]">Based in Milton Keynes, UK</li>
+              <li className="list-[circle]">London, United Kingdom</li>
             </ul>
           </li>
         </ul>
@@ -49,6 +48,11 @@ const Home = () => {
           <li>
             🌐
             <ul className="list-inside list-disc ml-4">
+              <li className="list-[circle]">
+                <Link href="https://davidmeadejr.com/resume.pdf" target="_blank" rel="noreferrer">
+                  Resume
+                </Link>
+              </li>
               <li className="list-[circle]">
                 <Link href="https://github.com/davidmeadejr" target="_blank" rel="noreferrer">
                   GitHub
@@ -69,18 +73,13 @@ const Home = () => {
                   Email
                 </Link>
               </li>
-              <li className="list-[circle]">
-                <Link href="https://davidmeadejr.com/resume.pdf" target="_blank" rel="noreferrer">
-                  Resume
-                </Link>
-              </li>
             </ul>
           </li>
         </ul>
         <h2>Why?</h2>
         <ul>
-          <li>Purpose over popularity, Direction over speed.</li>
-          <li>To win.</li>
+          <li>Purpose over popularity, Direction over speed</li>
+          <li>To win</li>
         </ul>
       </div>
       <p className="mt-3">Updated October 24th, 2024</p>
