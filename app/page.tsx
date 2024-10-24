@@ -50,7 +50,7 @@ const Home = () => {
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
                 <Link href="https://davidmeadejr.com/resume.pdf" target="_blank" rel="noreferrer">
-                  Resume
+                  Resume✨
                 </Link>
               </li>
               <li className="list-[circle]">
