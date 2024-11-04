@@ -70,7 +70,7 @@ const Home = () => {
               </li>
               <li className="list-[circle]">
                 <Link href="mailto:david@davidmeadejr.com" target="_blank" rel="noreferrer">
-                  david@davidmeadejr.com
+                  Email
                 </Link>
               </li>
             </ul>
