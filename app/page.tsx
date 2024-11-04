@@ -50,7 +50,7 @@ const Home = () => {
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">
                 <Link href="https://davidmeadejr.com/resume.pdf" target="_blank" rel="noreferrer">
-                  Resume✨
+                  Resume
                 </Link>
               </li>
               <li className="list-[circle]">
@@ -70,7 +70,7 @@ const Home = () => {
               </li>
               <li className="list-[circle]">
                 <Link href="mailto:david@davidmeadejr.com" target="_blank" rel="noreferrer">
-                  Email
+                  davidmeadejr@gmail.com
                 </Link>
               </li>
             </ul>
@@ -82,7 +82,7 @@ const Home = () => {
           <li>To win</li>
         </ul>
       </div>
-      <p className="mt-3">Updated October 24th, 2024</p>
+      <p className="mt-3">Updated 4th November, 2024</p>
     </div>
   );
 };
