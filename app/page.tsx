@@ -82,7 +82,7 @@ const Home = () => {
           <li>To win</li>
         </ul>
       </div>
-      <p className="mt-3">Updated 2nd May, 2025</p>
+      <p className="mt-3">Updated 3rd May, 2025</p>
     </div>
   );
 };
