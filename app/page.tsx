@@ -18,14 +18,14 @@ const Home = () => {
           <li>Building systems and infrastructure.</li>
           <li>Present:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">SWE (Platform Eng.) @ Capgemini</li>
+              <li className="list-[circle]">SWE (Platform Eng.) @ Capgemini.</li>
             </ul>
           </li>
           <li>
             Past:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">SWE @ two VC backed web3 startups</li>
-              <li className="list-[circle]">SWE @ Santander</li>
+              <li className="list-[circle]">SWE @ two VC backed web3 startups.</li>
+              <li className="list-[circle]">SWE @ Santander.</li>
             </ul>
           </li>
           <li>Interested in:
