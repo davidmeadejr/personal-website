@@ -30,8 +30,8 @@ const Home = () => {
           </li>
           <li>Interested in:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">Understanding systems from first principles.</li>
-              <li className="list-[circle]">Building high-performance products that solve real problems.</li>
+              <li className="list-[circle]">Understanding systems from first principles and building high-performance products that solve real problems.</li>
+              {/* <li className="list-[circle]">Building high-performance products that solve real problems.</li> */}
             </ul>
           </li>
         </ul>
