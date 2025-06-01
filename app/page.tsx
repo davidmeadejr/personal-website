@@ -15,7 +15,7 @@ const Home = () => {
         </div>
         <h2>Work?</h2>
         <ul>
-          <li>Systems and infrastructure.</li>
+          <li>Building systems and infrastructure.</li>
           <li>Present:
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">SWE (Platform Eng.) @ Capgemini</li>
