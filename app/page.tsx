@@ -31,7 +31,10 @@ const Home = () => {
           <li>Interested in:
             <ul className="list-inside list-disc ml-4">
               {/* <li className="list-[circle]">Understanding systems from first principles.</li> */}
-              <li className="list-[circle]">Building high-performance customer-centric products that solve real problems.</li>
+              <li className="list-[circle]">
+                Building high-performance customer-centric products<br />
+                that solve real problems.
+              </li>
             </ul>
           </li>
         </ul>
