@@ -30,8 +30,8 @@ const Home = () => {
           </li>
           <li>Interested in:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">Understanding systems from first principles.</li>
-              <li className="list-[circle]">Building high-performance products that solve real problems.</li>
+              {/* <li className="list-[circle]">Understanding systems from first principles.</li> */}
+              <li className="list-[circle]">Building high-performance customer-centric products that solve real problems.</li>
             </ul>
           </li>
         </ul>
@@ -82,7 +82,7 @@ const Home = () => {
           <li>To win.</li>
         </ul>
       </div>
-      <p className="mt-3">Updated 2nd June, 2025</p>
+      <p className="mt-3">Updated 6th July, 2025</p>
     </div>
   );
 };
