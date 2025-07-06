@@ -8,14 +8,14 @@ const Home = () => {
   return (
     <div className={`wrapper ${berkley.className} text-[0.875rem]`}>
       <div className="header"></div>
-      <div className="content [li]:mb-2">
+      <div className="content">
         <h2>Who?</h2>
         <div className="flashing-cursor">
           &gt; David Meade Jr.
         </div>
         <h2>Work?</h2>
         <ul>
-          <li>Building scalable infrastructure with a focus on platform engineering and MLOps.
+          <li className="mb-2">Building scalable infrastructure with a focus on platform engineering and MLOps.
           </li>
           <li>Present:
             <ul className="list-inside list-disc ml-4">
@@ -32,7 +32,6 @@ const Home = () => {
           </li>
           <li>Interested in:
             <ul className="list-inside list-disc ml-4">
-              {/* <li className="list-[circle]">Understanding systems from first principles.</li> */}
               <li className="list-[circle]">
                 Building high-performance customer-centric products that solve real problems.
               </li>
