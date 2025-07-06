@@ -66,11 +66,6 @@ const Home = () => {
                   LinkedIn
                 </Link>
               </li>
-              {/* <li className="list-[circle]">
-                <Link href="https://twitter.com/davidmeadejr" target="_blank" rel="noreferrer">
-                  Twitter
-                </Link>
-              </li> */}
               <li className="list-[circle] mb-2">
                 <Link href="mailto:david@davidmeadejr.com" target="_blank" rel="noreferrer">
                   david@davidmeadejr.com
