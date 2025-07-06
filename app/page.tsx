@@ -15,8 +15,7 @@ const Home = () => {
         </div>
         <h2>Work?</h2>
         <ul>
-          <li>Building scalable infrastructure<br />
-          with a focus on platform engineering and MLOps.
+          <li>Building scalable infrastructure with a focus on platform engineering and MLOps.
           </li>
           <li>Present:
             <ul className="list-inside list-disc ml-4">
@@ -26,8 +25,7 @@ const Home = () => {
           <li>
             Past:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">Software Engineer @ Flooz<br />
-              a Web3 startup and crypto exchange backed by Seedcamp.
+              <li className="list-[circle]">Software Engineer @ Flooz, a Web3 startup and crypto exchange backed by Seedcamp.
               </li>
               <li className="list-[circle]">Software Engineer @ Santander.</li>
             </ul>
@@ -36,8 +34,7 @@ const Home = () => {
             <ul className="list-inside list-disc ml-4">
               {/* <li className="list-[circle]">Understanding systems from first principles.</li> */}
               <li className="list-[circle]">
-                Building high-performance customer-centric products<br />
-                that solve real problems.
+                Building high-performance customer-centric products that solve real problems.
               </li>
             </ul>
           </li>
