@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className={`wrapper ${berkley.className} text-[0.875rem]`}>
       <div className="header"></div>
-      <div className="content">
+      <div className="content li:mb-2">
         <h2>Who?</h2>
         <div className="flashing-cursor">
           &gt; David Meade Jr.
