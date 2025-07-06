@@ -15,17 +15,21 @@ const Home = () => {
         </div>
         <h2>Work?</h2>
         <ul>
-          <li>Building systems and infrastructure.</li>
+          <li>Building scalable infrastructure<br />
+          with a focus on platform engineering and MLOps.
+          </li>
           <li>Present:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">SWE (Platform Eng.) @ Capgemini.</li>
+              <li className="list-[circle]">Software Engineer (Platform) @ Capgemini.</li>
             </ul>
           </li>
           <li>
             Past:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">SWE @ two VC backed web3 startups.</li>
-              <li className="list-[circle]">SWE @ Santander.</li>
+              <li className="list-[circle]">Software Engineer @ Flooz<br />
+              a Web3 startup and crypto exchange backed by Seedcamp.
+              </li>
+              <li className="list-[circle]">Software Engineer @ Santander.</li>
             </ul>
           </li>
           <li>Interested in:
