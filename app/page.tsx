@@ -19,7 +19,7 @@ const Home = () => {
           </li>
           <li>Present:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">Software Engineer (Platform) @ Capgemini.</li>
+              <li className="list-[circle] mb-2">Software Engineer (Platform) @ Capgemini.</li>
             </ul>
           </li>
           <li>
@@ -27,12 +27,12 @@ const Home = () => {
             <ul className="list-inside list-disc ml-4">
               <li className="list-[circle]">Software Engineer @ Flooz, a Web3 startup and crypto exchange backed by Seedcamp.
               </li>
-              <li className="list-[circle]">Software Engineer @ Santander.</li>
+              <li className="list-[circle] mb-2">Software Engineer @ Santander.</li>
             </ul>
           </li>
           <li>Interested in:
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">
+              <li className="list-[circle] mb-2">
                 Building high-performance customer-centric products that solve real problems.
               </li>
             </ul>
@@ -43,7 +43,7 @@ const Home = () => {
           <li>
             🌍
             <ul className="list-inside list-disc ml-4">
-              <li className="list-[circle]">London, England</li>
+              <li className="list-[circle] mb-2">London, England</li>
             </ul>
           </li>
         </ul>
@@ -71,7 +71,7 @@ const Home = () => {
                   Twitter
                 </Link>
               </li>
-              <li className="list-[circle]">
+              <li className="list-[circle] mb-2">
                 <Link href="mailto:david@davidmeadejr.com" target="_blank" rel="noreferrer">
                   Email
                 </Link>
